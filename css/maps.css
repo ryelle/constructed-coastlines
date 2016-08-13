@@ -1,0 +1,104 @@
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #000;
+}
+
+#name {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.tip {
+	margin: 50px 25px;
+	line-height: 1.6;
+}
+
+.placeholder,
+.colophon {
+	margin: 50px 25px;
+	font-style: italic;
+}
+
+.placeholder {
+	text-align: center;
+}
+
+a {
+	color: #156070;
+	text-decoration: none;
+}
+
+	a:hover, a:active, a:focus {
+		text-decoration: underline;
+	}
+
+.cols {
+	display: flex;
+	border-bottom: 1px solid #156070;
+}
+
+	.cols #map {
+		flex: 600px;
+	}
+
+	.cols #language {
+		flex: 100%;
+	}
+
+.block-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+	.block-list li {
+		margin: 0 5px 5px;
+		padding: 2px 5px;
+		display: inline-block;
+		background: #F1EFE4;
+	}
+
+svg {
+	background-color: white;
+}
+
+text {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #000;
+	stroke: white;
+	stroke-width: 5;
+	stroke-linejoin: round;
+	paint-order: stroke;
+}
+
+text.region {
+	stroke-width:10;
+	font-variant: small-caps;
+}
+
+path, line {
+	fill: none;
+	stroke: black;
+	stroke-linecap: round;
+}
+
+.slope {
+	stroke: #553333;
+	stroke-width: 1;
+}
+
+.river {
+	stroke: #156070;
+	stroke-width: 2;
+}
+
+.coast {
+	stroke: #111;
+	stroke-width: 4;
+}
+
+.border {
+	stroke-width: 5;
+	stroke-dasharray: 4,4;
+	stroke-linecap: butt;
+}

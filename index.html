@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fantasy Maps</title>
+		<link rel="stylesheet" href="css/maps.css">
+	</head>
+
+	<body>
+		<h1 id="name"></h1>
+		<div class="cols">
+			<div id="map">
+				<p class="placeholder">Map generating…</p>
+			</div>
+			<div id="language"></div>
+		</div>
+
+		<div class="tip">
+			<p>Want a higher-def map? Bump up the precision and reload: <code>localStorage.setItem( 'precision', 16 );</code></p>
+			<p>Lower it for a faster generation time (but a jankier map). I would reccommend between 12 and 16, higher than 16 will take longer to render. Default is 14, and it's capped at 20.</p>
+		</div>
+
+		<div class="colophon">
+			<p>Made by <a href="https://twitter.com/ryelle">@ryelle</a>, with libraries from <a href="https://twitter.com/mewo2">@mewo2</a>. <a href="#">On github here</a>.</p>
+		</div>
+	</body>
+
+	<script type="text/javascript" src="build/d3.min.js"></script>
+	<script type="text/javascript" src="build/maps.js"></script>
+</html>
