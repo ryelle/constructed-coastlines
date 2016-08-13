@@ -45,6 +45,18 @@ a {
 		flex: 100%;
 	}
 
+@media ( min-width: 768px ) {
+	.cols {
+		display: block;
+	}
+	.cols #map {
+		text-align: center;
+	}
+	.cols #language {
+		padding: 0 25px;
+	}
+}
+
 .block-list {
 	margin: 0;
 	padding: 0;
