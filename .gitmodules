@@ -1,0 +1,6 @@
+[submodule "js/terrain"]
+	path = js/terrain
+	url = git@github.com:ryelle/terrain.git
+[submodule "js/naming-language"]
+	path = js/naming-language
+	url = git@github.com:ryelle/naming-language.git
